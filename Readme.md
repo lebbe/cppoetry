@@ -23,3 +23,17 @@ w̭e͓ a̭r̙e̼ a͜l̟l̮ g̺o̼i̗n͍g̭ t̤o̟ s͙h͔o̦w̫ m̹e͉r͖c̖y͎
 
 
 The poem contains of four lines, inside a JS array.
+
+
+
+Try to require it or something I think you might install it somehow with npm
+from github.
+
+
+
+Also check out the example irc bot. Just clone project and insert legit
+irc network and channel. Then start the show with:
+
+```
+node ./bot.js
+```
