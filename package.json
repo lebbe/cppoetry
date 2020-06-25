@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Cyberpunk Poetry",
   "main": "index.js",
+  "git": "https://github.com/lebbe/cppoetry.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,7 @@
   "author": "bruce",
   "license": "MIT",
   "dependencies": {
+    "irc": "^0.5.2",
     "lunicode": "^2.0.1"
   }
 }
