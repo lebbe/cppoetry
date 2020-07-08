@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>̞̠C͈̣̜Y̨̙͉̯͉̓̂̐͆̒ͅP̭̪̈̂̒̉̕͘͜E̢̹̙͉̼̖͌͌͑̽Ŗ̙͈̪̰̍̿͋͒̐P̹̭͓͖͎͆̈́U̯͔̓̀̔̓N̐̍͌̃̾͘͜K̫̪͉̟͚̑̉͜ ̛͍͚͋͂͝P̩̾̎͊̽̎͊ͅŐ̩̦Ȩ̬̦͍̮͒͒̏̀͋ͅŢ̖̼̺́̽̒͆R͍͍͗̎Ẏ̧̼͉͜</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style media="screen">
+    body {
+      background-color: black;
+      background-image: radial-gradient( rgba(0, 68, 0, 0.75), black 120% );
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+      padding: 2rem;
+      color: white;
+      font: 1.3rem Inconsolata, monospace;
+      text-shadow: 0 0 5px #C8C8C8;
+      font-size: 40px;
+    }
+
+    body::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px);
+      pointer-events: none;
+    }
+    ::selection {
+      background: #0080FF;
+      text-shadow: none;
+    }
+    pre {
+      margin: 0;
+    }
+    </style>
+  </head>
+  <body>
+  <p class="poem"></p>
+
+  <!--
+  the bundle was made with:
+
+  browserify .\app.js -o bundle.js
+  terser .\bundle.js -o bundle-min.js
+  -->
+  <script async src="bundle-min.js"></script>
+
+  </body>
+</html>
