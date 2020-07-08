@@ -13,17 +13,34 @@ Spits out a cyberpunk poem. Don't mind the glitches.
 ```
 
 
+To require it just
 
 ```
-       ša͛c͆r͝ìl̄o̎g̊i̊o͝ủs̑ ňèȍn͛ s̃h̎èêp̽
-                   f̈́āl̏ṡȇ s̀h̚e̕ép̊
-                    e̮v̮i͈l̡ r̙o̯ḅo̯t͜s̜
-w̭e͓ a̭r̙e̼ a͜l̟l̮ g̺o̼i̗n͍g̭ t̤o̟ s͙h͔o̦w̫ m̹e͉r͖c̖y͎
+const poem = require('./index.js').poem
 ```
 
+if you don't want random glitchiness and stuff try
+
+
+```
+const poem = require('./index.js').onlyText
+```
+
+
+```
+static strange alien
+electrical alien
+sacrilogious robot
+must we punctuate
+```
 
 The poem contains of four lines, inside a JS array.
 
+
+Please note that the vocabulary contains some filthy words.
+
+
+Please suggest more words in the vocabulary via issues or PR.
 
 
 Try to require it or something I think you might install it somehow with npm

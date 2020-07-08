@@ -1,5 +1,5 @@
 const irc = require('irc')
-const poem = require('./index.js')
+const poem = require('./index.js').poem
 
 console.log(poem())
 

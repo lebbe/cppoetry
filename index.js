@@ -96,11 +96,16 @@ function creepyBottom(text) {
 }
 
 
+function onlyText() {
+  const line1 = random(As) + ' ' + random(As) + ' ' + random(Ns)
+  const line2 = random(As) + ' ' + random(Ns)
+  const line3 = random(As) + ' ' + random(Ns)
+  const line4 = random(VPs) + ' ' + random(Vs)
+  return [line1, line2, line3, line4]
+}
+
 function generate() {
-	let line1 = random(As) + ' ' + random(As) + ' ' + random(Ns)
-	let line2 = random(As) + ' ' + random(Ns)
-	let line3 = random(As) + ' ' + random(Ns)
-	let line4 = random(VPs) + ' ' + random(Vs)
+  let [line1, line2, line3, line4] = onlyText()
 
 	// MIRRROOORRR
 	if(Math.random() > 0.95) {
@@ -140,4 +145,7 @@ function generate() {
 }
 
 
-module.exports = generate;
+module.exports = {
+  poem: generate,
+  onlyText: onlyText
+};
