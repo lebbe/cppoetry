@@ -13,6 +13,9 @@ Spits out a cyberpunk poem. Don't mind the glitches.
 ```
 
 
+See example at https://lebbe.github.io/cppoetry/index.html
+
+
 To require it just
 
 ```
