@@ -14,7 +14,7 @@ var As = [
   'good',
   'alien',
   'strange',
-  'sacrilogious',
+  'sacrilegious',
   'drifting',
   'false',
   'static',
