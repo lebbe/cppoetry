@@ -57,3 +57,12 @@ irc network and channel. Then start the show with:
 ```
 node ./bot.js
 ```
+
+
+If you want to build the project into its web app version yourself,
+you need to install browserify and terser, and run these commands:
+
+```
+browserify .\app.js -o bundle.js
+terser .\bundle.js -o bundle-min.js
+```
